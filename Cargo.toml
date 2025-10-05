@@ -1,0 +1,15 @@
+[package]
+name = "uomi-testnet-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = { version = "2.0", features = ["legacy"] }
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"
+crossterm = "0.27"
+ratatui = { version = "0.26", features = ["all-widgets"] }
+chrono = "0.4"
+figlet-rs = "0.1"
+serde_json = "1.0"
+hex = "0.4"
